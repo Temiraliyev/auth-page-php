@@ -1,5 +1,4 @@
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -127,19 +126,22 @@
             <a href="" class="register" target="blank">Signup</a>
         </div>
 
-        
+
 
         <form class="form" action="savedata.php" method="post">
             <input type="email" name="emailadress" placeholder="Email Adress" class="email">
             <input type="password" name="passwords" placeholder="Password" class="pass">
-            <input type="password"  placeholder="Cofirm Password" class="pass">
+            <input type="password" placeholder="Cofirm Password" class="pass">
 
             <a href="#" class="fp">Forgot password?</a>
+
             <input type="submit" value="submit" class="login_btn">
+
 
         </form>
 
-        
+
+
     </div>
 
 </body>

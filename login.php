@@ -132,13 +132,13 @@ body{
             <!-- SE CONNECTER / S'INSCRIRE -->
         <div class="login_register">
             <a href="login.php" class="login" target="blank">Login</a>
-            <a href="signup.php" class="register" target="blank">Signup</a>
+            <a  class="register" target="blank">Signup</a>
         </div>
 
             <!-- FORMULAIRE -->
         <form class="form">
             <input type="email" placeholder="Email Adress" class="email">
-            <input type="password" placeholder="password" class="pass">
+            <input type="password" placeholder="Password" class="pass">
         </form>
 
             <!-- MOT DE PASSE OUBLIE ? -->
@@ -150,7 +150,7 @@ body{
             <!-- PIED DE LA CARD -->
         <div class="footer_card">
         <p>Not a member?</p>
-        <a href="#">Singup now</a>
+        <a href="signup.php">Singup now</a>
         </div>
     </div>
         

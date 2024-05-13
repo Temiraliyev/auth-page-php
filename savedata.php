@@ -13,6 +13,7 @@ $passwords = $_POST["passwords"];
 $sql = "INSERT INTO authorization (emailadress, passwords)
 VALUES ('$emailadress', '$passwords')";
 if ($conn->query($sql) === TRUE) {
+  
   echo "New record created successfully";
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
